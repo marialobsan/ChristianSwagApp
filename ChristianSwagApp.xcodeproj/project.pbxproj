@@ -13,6 +13,8 @@
 		8DD4CCDB22EB25C100A36B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4CCDA22EB25C100A36B08 /* Assets.xcassets */; };
 		8DD4CCDE22EB25C100A36B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4CCDC22EB25C100A36B08 /* LaunchScreen.storyboard */; };
 		8DD4CCEA22EB2D8D00A36B08 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4CCE922EB2D8D00A36B08 /* CategoryCell.swift */; };
+		8DD4CCEC22EB515100A36B08 /* category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4CCEB22EB515100A36B08 /* category.swift */; };
+		8DD4CCEF22EB520500A36B08 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4CCEE22EB520500A36B08 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8DD4CCDD22EB25C100A36B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DD4CCDF22EB25C100A36B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DD4CCE922EB2D8D00A36B08 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		8DD4CCEB22EB515100A36B08 /* category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = category.swift; sourceTree = "<group>"; };
+		8DD4CCEE22EB520500A36B08 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		8DD4CCD222EB25C000A36B08 /* ChristianSwagApp */ = {
 			isa = PBXGroup;
 			children = (
+				8DD4CCED22EB51EB00A36B08 /* Services */,
 				8DD4CCE822EB2D4C00A36B08 /* Model */,
 				8DD4CCE722EB2D4000A36B08 /* View */,
 				8DD4CCE622EB2D2600A36B08 /* Controller */,
@@ -87,8 +92,17 @@
 		8DD4CCE822EB2D4C00A36B08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8DD4CCEB22EB515100A36B08 /* category.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8DD4CCED22EB51EB00A36B08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DD4CCEE22EB520500A36B08 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				8DD4CCD622EB25C000A36B08 /* CategoriesVC.swift in Sources */,
 				8DD4CCD422EB25C000A36B08 /* AppDelegate.swift in Sources */,
 				8DD4CCEA22EB2D8D00A36B08 /* CategoryCell.swift in Sources */,
+				8DD4CCEC22EB515100A36B08 /* category.swift in Sources */,
+				8DD4CCEF22EB520500A36B08 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
